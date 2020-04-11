@@ -1,0 +1,23 @@
+.LineGraph {
+  /* float: left; */
+  width: 60%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .LineGraph {
+    width: 100%;
+  } 
+}
+
+.tick line{
+  opacity: 0.2;
+  stroke-dasharray: 5 5; 
+}
+
+text {
+  font-family: 'PT Mono', monospace, sans-serif;
+}
+
+.svg-wrapper {
+  height: auto;
+}

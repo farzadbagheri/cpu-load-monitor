@@ -1,0 +1,35 @@
+.Log {
+    border-radius: 16px;
+  background-color: rgb(52,52,52);
+}
+
+.logList {
+  overflow: scroll;
+  background-color: rgb(47, 47, 47);
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 0px;
+}
+
+.logName {
+  padding:14px;
+  font-size: 1.17em;
+  font-weight: 700;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.result {
+  padding: 2px 0 2px 0;
+  border-bottom: black; 
+}
+
+.result:nth-child(2n) {
+  background-color: rgb(34, 34, 34);
+}
+
+#noResults {
+  margin: auto;
+}

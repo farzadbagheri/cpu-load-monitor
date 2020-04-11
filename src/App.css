@@ -1,0 +1,55 @@
+html, * {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(57,57,57);
+}
+
+.App {
+  color: white;
+  text-align: center;
+  background-color: rgb(57,57,57);
+  overflow: hidden;
+  font-family: 'PT Mono', monospace, sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+  justify-content: space-evenly;
+}
+
+.header {
+  text-align: left;
+  margin-left: 5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+  }
+}
+
+.number {
+  font-weight: 300;
+  background-color: rgb(24, 24, 26);
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.data {
+  font-size: 1.17em;
+  text-align: left;
+  padding: 18px;
+}
+
+.logs {
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(47,47,47);
+  padding-bottom: 12px; 
+}
