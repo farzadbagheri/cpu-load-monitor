@@ -1,4 +1,5 @@
 <h2 align="center">CPU Load Monitor</h2>
+
 ![Screenshot of Load Monitor]
 (https://github.com/farzadbagheri/cpu-load-monitor/blob/master/loadmonitor.png?raw=true)
 
