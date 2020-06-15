@@ -1,4 +1,5 @@
 <h2 align="center">CPU Load Monitor</h2>
+![Screenshot of Load Monitor](https://github.com/farzadbagheri/cpu-load-monitor/blob/master/loadmonitor.png?raw=true)
 
 This is a POC for a web app that monitors CPU load and alert + log high CPU load occurrences and recoveries. It is built using React with a local Node.js backend. 
 
